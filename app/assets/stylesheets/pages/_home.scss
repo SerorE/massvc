@@ -1,1 +1,70 @@
 // Specific CSS for your home-page
+.container{
+  // padding: 50px;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: 15% 70% 15%;
+  width: 70vw;
+  // margin-right: 300px;
+  //   margin-left: 300px;
+}
+
+.title{
+margin-top:10px;
+font-size: 25px;
+}
+.card{
+  align-items: center;
+    box-shadow:  0 2px 4px 0 rgba(0,0,0,0.10);
+
+
+  padding:20px;
+  display: flex;
+flex-direction:column;
+justify-content: space-evenly;
+  text-align: center;
+  grid-row: 2/ span 1;
+    border-radius: 6px;
+
+     background-color: black;
+color:white;
+  .card-pre-title{
+margin-top: 20px;
+font-size: 18px;
+
+  }
+  .card-title{
+font-size: 23px;
+font-weight:bolder;
+  }
+  p{
+  font-weight:lighter;
+    text-align: justify;
+
+  }
+
+  .btn{
+  // color: #999999;
+  border: 2px solid #999999;
+  padding: 10px 15px;
+  width: 200px;
+  border-radius: 50px;
+  font-weight: lighter;
+  // opacity: 0.6;
+
+      &:hover {
+        background-color:white;
+        color:black;
+    }
+  }
+}
+
+
+
+.investor{
+   grid-column: 1/ span 1;
+}
+.manager{
+   grid-column: 3/ span 1;
+}

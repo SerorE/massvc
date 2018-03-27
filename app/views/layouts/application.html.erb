@@ -11,10 +11,17 @@
   </head>
   <body>
       <%= render 'shared/navbar' %>
+
+      <div class="global-container">
+        <%= render 'shared/betabar' %>
+
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+          </div>
           <%= render 'shared/footer' %>
+
 
   </body>
 </html>

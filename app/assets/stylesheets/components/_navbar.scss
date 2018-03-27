@@ -15,17 +15,48 @@
   flex-direction: row;
 }
 
+// .sign-log{
+// display:flex;
+// flex-direction: column;
+
+// .sign-in{
+//   text-align:center;
+// color: #00C9B1;
+// font-weight: bolder;
+// }
+.log-in{
+  // font-size: 15px;
+  font-weight: bolder;
+   // color: #00C9B1;
+}
+
+// .question{
+//   font-weight:lighter;
+// }
+
 
 #logo{
 height: 60px;
 }
 
 .navbar-links{
-  margin-top:25px;
+  margin-top:20px;
   // width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+    font-size: 17px;
+
+a{
+text-decoration:none;
+color:black,
+}
+
+}
+
+.navbar-link{
+        padding: 0 20px;
+
 }
 
 .about-section{
@@ -34,15 +65,6 @@ cursor: pointer;
   display: flex;
   }
 
-}
-/* Basic navbar item */
-.navbar-wagon-item {
-  padding: 0 20px;
-}
-
-/* Navbar link */
-.navbar-wagon-link {
-  font-size: 17px;
 }
 
 #about-elliot {

@@ -1,22 +1,37 @@
-// Specific CSS for your home-page
 .container{
   height: 90vh;
-  // padding: 50px;
   display: grid;
   grid-template-columns: 40% 20% 40%;
-  grid-template-rows: 15% 70% 15%;
+  grid-template-rows: 25% 60% 15%;
   width: 70vw;
-  // margin-right: 300px;
-  //   margin-left: 300px;
 }
 
+#bgvid{
+height: 200px;
+}
 .for-startups{
  position: absolute;
- top: 150px;
- left: 10px;
+     text-align: center;
+ top: 250px;
+ left: 550px;
  text-decoration:none;
  color: grey;
 
+}
+
+
+.video {
+ position: fixed;
+ top: 50%; left: 50%;
+ z-index: 1;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+ z-index:-1;
+ // filter: grayscale(1);
+ filter: grayscale(1) brightness(0.45) contrast(1.05);
 }
 
 .title{
@@ -75,7 +90,30 @@ a{
   }
 }
 
+.intro-text{
+align-items: center;
+// position: absolute;
+//  top: 150px;
+// width: 700px;
+//  right: 10px;
+  // h1{
+    text-align: center;
+    box-shadow:  0 2px 4px 0 rgba(0,0,0,0.10);
 
+  // font-weight: bolder;
+// border-style: solid;
+// border-width: 1px;
+  // background-color:white;
+  margin: 15px 0px;
+  grid-row: 1/ span 1;
+  grid-column: 1/ span 3;
+  background-color:rgba(255,255,255,0.7);
+  border-radius: 4px;
+  height: 100px;
+//   strong{
+// font-size: 20px;
+//   }
+}
 
 .investor{
    grid-column: 1/ span 1;

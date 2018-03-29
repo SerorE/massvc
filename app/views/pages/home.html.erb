@@ -2,26 +2,9 @@
 <p>Find me in app/views/pages/home.html.erb</p>
  -->
 
-<div class="container" id="overlay">
 
 
-<!-- <video playsinline autoplay muted loop  id="bgvid">
-    <source src=".webm" type="video/webm">
-    <source src="london_bridge.mp4" type="video/mp4">
-</video>
- -->
-
-<%= video_tag "london_bridge.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video" %>
-<!--
-<div class="for-startups">
-</div> -->
-
-<div class = "intro-text">
-  <h2>Our fund managers don't come to work in the morning. </h2>
-  <p><a href="/principles">Learn more</a> about how we are creating a new way of managing money.</p>
-<p>Are you a founder? <a href="mailto:pitch@massvc.co.uk?subject=[Your Company Here] Pitch">Send us</a> your pitch. </p>
-
-</div>
+<%= video_tag "london_bridge.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, id:"myvideo",class: "video" %>
 
   <div class="investor card">
     <div class="card-title-container">
@@ -44,4 +27,4 @@
   </div>
 
 
-</div>
+

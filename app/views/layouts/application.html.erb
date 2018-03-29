@@ -12,14 +12,16 @@
   <body>
       <%= render 'shared/navbar' %>
 
-      <div class="global-container">
         <%= render 'shared/betabar' %>
 
+<div class="container-global" >
+         <%= render 'shared/top' %>
     <%= yield %>
+     </div>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
 
-          </div>
+
           <%= render 'shared/footer' %>
 
 

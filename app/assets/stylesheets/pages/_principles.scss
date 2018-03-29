@@ -1,8 +1,27 @@
-.principles-container{
-margin-left: 20px;
+.subcontainer-principles{
+  grid-row: 2/ span 1;
+    grid-column: 1/ span 3;
+// margin-left: 20px;
 width: 600px;
+background-color:rgba(255,255,255,0.8);
+  border-radius: 4px;
 h1{
+  text-align:center;
 background-color: black;
 color: white;
+}
+margin-left: auto;
+margin-right: auto;
+
+#cover-principles{
+ position: fixed;
+ top: 50%; left: 50%;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+ z-index:-2;
+   filter: grayscale(1);
 }
 }

@@ -6,7 +6,6 @@
   height: 60px;
   padding: 0px 30px;
   display: flex;
-  // align-items: center;
   justify-content: space-between;
 }
 
@@ -15,24 +14,12 @@
   flex-direction: row;
 }
 
-// .sign-log{
-// display:flex;
-// flex-direction: column;
 
-// .sign-in{
-//   text-align:center;
-// color: #00C9B1;
-// font-weight: bolder;
-// }
 .log-in{
-  // font-size: 15px;
   font-weight: bolder;
-   // color: #00C9B1;
 }
 
-// .question{
-//   font-weight:lighter;
-// }
+
 
 
 #logo{
@@ -42,7 +29,6 @@ height: 50px;
 
 .navbar-links{
   margin-top:20px;
-  // width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
